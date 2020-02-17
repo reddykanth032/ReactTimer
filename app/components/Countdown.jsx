@@ -1,8 +1,10 @@
 var  React=require("react");
-
+var Clock=require("Clock");
 var Countdown=()=>{
   return(
-    <h1> in CountDown Page</h1>
+    <div>
+    <Clock totalseconds={129}/>
+    </div>
 
   );
 };
